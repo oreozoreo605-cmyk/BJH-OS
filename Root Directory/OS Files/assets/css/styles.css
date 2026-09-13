@@ -6,17 +6,17 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --gradient-color-red: linear-gradient(90deg, 
-                          hsl(7, 89%, 46%) 15%,
-                          hsl(11, 93%, 68%) 100%);
+                          hsl(305, 89%, 46%) 15%,
+                          hsl(271, 93%, 68%) 100%);
   --gradient-color-orange: linear-gradient(90deg, 
-                           hsl(22, 89%, 46%) 15%,
-                           hsl(54, 90%, 45%) 100%);
+                           hsl(281, 89%, 46%) 15%,
+                           hsl(251, 90%, 45%) 100%);
   --gradient-color-yellow: linear-gradient(90deg, 
-                           hsl(54, 89%, 46%) 15%,
-                           hsl(92, 90%, 45%) 100%);
+                           hsl(253, 89%, 46%) 15%,
+                           hsl(162, 90%, 45%) 100%);
   --gradient-color-green: linear-gradient(90deg, 
-                          hsl(92, 89%, 46%) 15%,
-                          hsl(92, 90%, 68%) 100%);
+                          hsl(167, 89%, 46%) 15%,
+                          hsl(143, 90%, 68%) 100%);
   --text-color: #fff;
   --body-color: hsl(0, 0%, 11%);
   --container-color: hsl(0, 0%, 9%);

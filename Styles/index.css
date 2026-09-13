@@ -71,7 +71,7 @@ h5 {
 	border-left:  0.5px solid #f1f1f12a;
 	border-top:  0.5px solid #f1f1f12a;
 	border-radius: 5px;
-	border-bottom: 2px solid rgb(255, 136, 0);
+	border-bottom: 2px solid rgb(60, 2, 99);
 	background-color: rgba(44, 42, 35, 0.35);
 	padding: 7px;
 	padding-left: 27px;
@@ -86,7 +86,7 @@ h5 {
 	border-left: 0.25px solid #f1f1f11e; 
 	border-top: 0.25px solid #f1f1f11e;
 	border-right: 0.25px solid #f1f1f11e;;
-	border-bottom: 2px solid rgb(255, 136, 0);
+	border-bottom: 2px solid rgb(52, 4, 80);
 	background-color: rgba(44, 42, 35, 0.35);
 	padding: 5px;
 	font-size: 12px; display: inline-block;
@@ -135,8 +135,8 @@ h5 {
 	transition: .4s;
 }
   
-input:checked + .slider2 {background-color: #f38021;border: none;}
-input:focus + .slider2 {box-shadow: 0 0 1px #f38021;}
+input:checked + .slider2 {background-color: #5e0183;border: none;}
+input:focus + .slider2 {box-shadow: 0 0 1px #32025a;}
 input:checked + .slider2:before {
 	-webkit-transform: translateX(22px);
 	-ms-transform: translateX(22px);
@@ -167,7 +167,7 @@ input:checked + .slider2:before {
 .Switch_Mobile .img-ph img{width: 7rem; position: relative;}
 .Switch_Mobile button{
 	color: white;
-    background-color: rgb(255, 123, 0);
+    background-color: rgb(104, 4, 117);
     border-radius: 8px;
     padding: 10px;
     cursor: pointer;
@@ -229,7 +229,7 @@ input:checked + .slider2:before {
 	align-items: center;
 	justify-content: center;
 	border-radius: 25px;
-	background: #EA4D67;
+	background: #a3037b;
   }
   .popup.online .icon i {
 	background: #2ECC71;
@@ -247,7 +247,7 @@ input:checked + .slider2:before {
 	font-size: 0.95rem;
 	padding: 8px 13px;
 	color: white;
-	background-color: rgb(255, 123, 0);
+	background-color: rgb(79, 1, 99);
 	border-radius: 8px;
 	padding: 10px;
 	font-size: 16px;

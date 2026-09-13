@@ -42,7 +42,7 @@
     -webkit-appearance: none;  appearance: none;
     width: 15px; height: 15px;
     border-radius: 50%;
-    background: #ff9100;
+    background: #4d0253;
     border: 3px solid white;
     cursor: pointer;
     transition: border 0.05s, scale 0.3s;
@@ -52,7 +52,7 @@
 .slider::-webkit-slider-thumb:hover {
     border: 2px solid white;
     scale: 1.1;
-    background: rgb(255, 166, 0);
+    background: rgb(79, 1, 82);
 }
 
 .slider::-moz-range-thumb {
@@ -311,7 +311,7 @@
 }
 
 #close{
-	background: red;
+	background: rgb(0, 255, 179);
 	height: 6px;
 	width: 90px;
 	border-radius: 5px;
@@ -358,7 +358,7 @@
   }
   
   #max:hover{
-	background: yellow;
+	background: rgb(0, 217, 255);
 	scale: 1.1;  	height: 10px; -webkit-transform: translateY(5px); transform: translateY(5px);
 	box-shadow: 0px 0px 2px black;
   }
@@ -424,7 +424,7 @@
 	  border-radius: 10px;
   }
   .welcome-content a{transition: all 0.3s;}
-  .welcome-content a:hover{color: orange;}
+  .welcome-content a:hover{color: rgb(0, 119, 255);}
   
   .welcome-content p{
 	  padding: 12.5px;
@@ -480,7 +480,7 @@
 
 	.welcome-btn {
 		color: white; 
-		background-color:rgb(255, 123, 0);
+		background-color:rgb(0, 38, 255);
 		border-radius: 8px; 
 		 padding: 10px; 
 		 cursor: pointer; 
@@ -679,14 +679,14 @@
 	.FIlesbutton .HiddenF{
 		display: none;
 		width: 17.5px;
-		background-color: orange;
+		background-color: rgb(55, 0, 255);
 		height: 3.5px;
 		border-radius: 500px;
 		margin-left: 3.5px; margin-top: 3.5px;
 	}
 	
 	.FIlesbutton .HiddenF:hover {
-		background-color: orange;
+		background-color: rgb(0, 26, 255);
 		backdrop-filter: none;
 		-webkit-backdrop-filter: none;
 		padding: 0px;
@@ -1770,7 +1770,7 @@
 	border: 1px solid rgba(104, 104, 104, 0);
   }
 
-  .days li.active::before{background: rgb(255, 119, 0); border: 1px solid white; transition: all 0.3s;}
+  .days li.active::before{background: rgb(4, 0, 255); border: 1px solid white; transition: all 0.3s;}
   .days li.active:hover::before{background: rgba(220, 220, 220, 0.1); border: 1px solid rgba(104, 104, 104, 0.448);}
   .days li.active:active::before{border: 1px solid rgba(104, 104, 104, 0.75);}
   .days li:not(.active):hover::before{background: rgba(220, 220, 220, 0.1);}

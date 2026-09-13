@@ -56,7 +56,7 @@
         }
     
         #dismissButton, #remindLaterButton {
-            background-color: #dc3545;
+            background-color: #dc35ce;
             color: #fff;
             margin-left: 10px;
             font-family: "IBM Plex Sans", sans-serif;
@@ -337,6 +337,13 @@ if (!sessionStorage.getItem('setupLoaded')) {
                                 window.open('Root Directory/OS Files/Other Files/Paint/paint.html', '_blank');
                             }
     }
+    function openMusic() {
+                            if (window.openAppInWindow) {
+                                window.openAppInWindow('Apps - (Testing)/music-player-master/index.html', 'Music');
+                            } else {
+                                window.open('Root Directory/OS Files/Other Files/Paint/paint.html', '_blank');
+                            }
+    }
 </script>
 
 <!-- Clickable File Manager -->
@@ -357,6 +364,13 @@ if (!sessionStorage.getItem('setupLoaded')) {
 <div onclick="openPaint()">
     <div class="Edgebutton" id="myP5">
         <img src="Root Directory/OS Files/ICONS/paint icon.png" width="25px">
+    </div>
+</div>
+
+<!-- Clickable Music -->
+<div onclick="openMusic()">
+    <div class="Edgebutton" id="myP5">
+        <img src="Root Directory/OS Files/ICONS/musica.png" width="25px">
     </div>
 </div>
 
@@ -754,7 +768,7 @@ if (!sessionStorage.getItem('setupLoaded')) {
             <div class="desktops">
                 <div class="desktop1">
                     <p>Desktop 1</p>
-                    <img src="Customize BJH OS/Background Wallpaper/RipenWaves2.png" width="195px" height="105px" id="dstp1Img">
+                    <img src="Customize BJH OS/Background Wallpaper/wallpaper.jpg" width="195px" height="105px" id="dstp1Img">
                 </div>
                 <div class="newD">
                     <span>&#43;</span>
